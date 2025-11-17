@@ -244,10 +244,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q      &to_layer_0 W             &to_layer_0 E         &to_layer_0 R  &to_layer_0 T                    &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
-&to_layer_0 A      &to_layer_0 S             &to_layer_0 D         &to_layer_0 F  &to_layer_0 G            &trans  &to_layer_0 H  &trans         &trans         &trans         &to_layer_0 ENTER
-&to_layer_0 Z      &to_layer_0 X             &to_layer_0 C         &to_layer_0 V  &to_layer_0 B  &trans    &trans  &to_layer_0 N  &trans         &trans         &trans         &mo 4
-&to_layer_0 LCTRL  &to_layer_0 LEFT_COMMAND  &to_layer_0 LEFT_ALT  &trans         &trans         &trans    &trans  &trans                                                      &trans
+&to_layer_0 Q      &to_layer_0 W             &to_layer_0 E         &to_layer_0 R  &to_layer_0 T                                                          &to_layer_0 Y  &to_layer_0 U      &to_layer_0 I        &to_layer_0 O       &to_layer_0 P
+&to_layer_0 A      &to_layer_0 S             &to_layer_0 D         &to_layer_0 F  &to_layer_0 G                               &trans                     &to_layer_0 H  &macro_left_click  &macro_middle_click  &macro_right_click  &to_layer_0 ENTER
+&to_layer_0 Z      &to_layer_0 X             &to_layer_0 C         &to_layer_0 V  &to_layer_0 B  &trans                       &trans                     &to_layer_0 N  &macro_mb4         &to_layer_0 COMMA    &macro_mb5          &mo 4
+&to_layer_0 LCTRL  &to_layer_0 LEFT_COMMAND  &to_layer_0 LEFT_ALT  &mo2_force0    &mo3_force0    &customized_hold_tap1 0 0    &customized_hold_tap1 0 0  &mo3_force0                                                                &customized_hold_tap2 0 0
             >;
 
             sensor-bindings = <&scroll_up_down>;
